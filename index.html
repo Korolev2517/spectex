@@ -22,12 +22,12 @@
     <div class="container">
         <div class="header__inner">
             <a class="header__logo" href="#">
-                    <img class="header__logo_top" src="img/logo-black-1.png">
+                    <img class="header__logo_top" src="img/logo-black-1.png" alt="#">
             </a>
-            <button class="header__burger-btn">
+            <button class="header__burger-btn" id="burger">
                 <span></span><span></span><span></span>
             </button>
-            <nav class="header__menu">
+            <nav class="header__menu" id="header__menu">
                 <ul class="menu__list">
                     <li class="menu__item"><a class="menu__link" href="#machinery">Техника</a></li>
                     <li class="menu__item"><a class="menu__link" href="#materials">Сыпучие материалы</a></li>
@@ -285,7 +285,7 @@
                         </select>
                     </div>
                     <div class="quantity">
-                        <p>Введите колличество в тоннах или м<sup>3</sup></p>
+                        <p class="quantity__title">Введите колличество в тоннах или м<sup>3</sup></p>
                         <div class="measurement_method">
                             <div>
                                 <p>Колличество в тоннах</p>
@@ -389,8 +389,9 @@
     </div>
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-<script src="js/slick.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
 <script src="js/choices.min.js"></script>
 <script src="js/select-costomer.js"></script>
 <script src="js/main.js"></script>
