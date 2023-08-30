@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    background-color: #fff;
     scroll-behavior: smooth;
 }
 
@@ -113,18 +114,12 @@ body {
     transform: translateY(0) rotate(-45deg);
 }
 
-/*.header__menu {*/
-/*    display: flex;*/
-/*    text-align: end;*/
-/*}*/
-
 .menu__list {
     display: flex;
     margin: 0 auto;
     padding: 10px;
     align-items: center;
     list-style-type: none;
-
 }
 
 .menu__item + .menu__item {
@@ -156,7 +151,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-
 }
 
 .discription__colum-slider {
@@ -167,10 +161,9 @@ body {
 
 .discription__title {
     display: flex;
-    line-height: 77px;
+    line-height: 72px;
     font-weight: 700;
-    font-size: 64px;
-
+    font-size: 60px;
     margin: 10px 0 5px;
 }
 
@@ -186,13 +179,13 @@ body {
     justify-content: space-between;
     font-size: 20px;
     width: inherit;
-    /*max-width: 550px;*/
     margin: 0;
 }
 
 .discription__link {
     display: inline-block;
     margin-top: 30px;
+    margin-right: 15px;
     background-color: #131313;
     color: white;
     padding: 15px 15px;
@@ -608,6 +601,13 @@ li {
         visibility: visible;
     }
 
+    .discription {
+        padding: 10px;
+    }
+
+    .machinery {
+        padding: 10px;
+    }
 
 
 
@@ -625,28 +625,56 @@ li {
     .materials__flexbox-left {
         display: none;
     }
+
+
     .materials__flexbox-right {
         display: flex;
-        max-width: 320px;
+        flex-wrap: wrap;
+        margin: 0;
+        flex-direction: row;
+        min-width: auto;
+        height: auto;
+    }
+    .calculator {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
         margin: 0;
     }
+
     .choices {
-        max-width: 410px;
+        width: 290px;
+    }
+
+    .choices__inner {
         min-width: 290px;
     }
     .quantity {
+        position: relative;
         display: flex;
-        font-size: calc(15px + (32 - 20) * ((100vw - 320px) / (1220 - 320)));
+        flex-direction: column;
+    }
+    select {
+        width: calc(100% - 20px);
+        margin: 0 20px;
     }
     .quantity__title {
-        display: block;
         margin: 0;
     }
     .measurement_method {
         display: block;
-        max-width: 320px;
+        max-width: 100%;
         margin: 0;
+        padding-bottom: 40px;
     }
+    .quantity-value {
+        padding-bottom: 20px;
+    }
+
+    input {
+        width: 80% !important;
+    }
+
 }
 
 

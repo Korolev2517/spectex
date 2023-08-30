@@ -121,8 +121,8 @@ const materials = {
     "black_soil_2": black_soil_2,
     "black_soil_3": black_soil_3,
     "clay": clay,
-
 }
+
 //автоматическая подставновка цены из выбранного объекта
 material_id.addEventListener("change", ({target}) => {
     if(materials.hasOwnProperty(target.value) === false) {
@@ -159,10 +159,10 @@ function handleFormSubmit(event) {
     console.log('Отправка');
 
 }
-//создаем переменную в которой будет храниться значение идентификатора (id) из HTML с помощью метода .getElementById
 let applicantForm = document.getElementById('calculator');
 //указываем, что бы отслеживалось событие submit (отправка формы), и в случае его срабатывания применялась функция блокирующая дефолтное поведения браузера
 applicantForm.addEventListener('submit', handleFormSubmit);
+//создаем переменную в которой будет храниться значение идентификатора (id) из HTML с помощью метода .getElementById
 
 //создаем функцию для умножения количества материала на его цену
 function mult(a, b) {
