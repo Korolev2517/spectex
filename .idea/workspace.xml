@@ -24,6 +24,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Korolev2517&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4f53d092-1469-4448-966f-97f09fa43b43" />
+        <option name="url" value="https://github.com/Korolev2517/spectex.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -43,7 +57,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;test&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Project/spectex&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -51,7 +65,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -128,7 +142,14 @@
       <workItem from="1693309334083" duration="3741000" />
       <workItem from="1693402631334" duration="10095000" />
       <workItem from="1693493776626" duration="3715000" />
-      <workItem from="1693639963483" duration="10548000" />
+      <workItem from="1693639963483" duration="10958000" />
+      <workItem from="1695624843138" duration="56000" />
+      <workItem from="1695624936731" duration="6188000" />
+      <workItem from="1696073259569" duration="36000" />
+      <workItem from="1696073305176" duration="128000" />
+      <workItem from="1697033228932" duration="125000" />
+      <workItem from="1698549606810" duration="2759000" />
+      <workItem from="1698676011923" duration="4654000" />
     </task>
     <servers />
   </component>
